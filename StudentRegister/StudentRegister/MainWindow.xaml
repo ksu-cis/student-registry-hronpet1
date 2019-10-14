@@ -36,7 +36,9 @@
                 </DataTemplate>
             </ContentControl.ContentTemplate>
         </ContentControl>
-        
+        <Button DockPanel.Dock="Bottom" Click="AddStudent"> 
+            Add New Student
+        </Button>        
     </DockPanel>
     
 </Window>

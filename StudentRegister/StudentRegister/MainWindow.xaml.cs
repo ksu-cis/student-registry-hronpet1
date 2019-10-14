@@ -31,5 +31,10 @@ namespace StudentRegister
             students.Add(new Student("Mary", "Contrary"));
             StudentList.ItemsSource = students;
         }
+
+        private void AddStudent(object sender, RoutedEventArgs e)
+        {
+            students.Add(new Student("J", "Doe"));
+        }
     }
 }
